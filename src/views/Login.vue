@@ -7,7 +7,7 @@
       <div
         id="g_id_onload"
         data-client_id="274437993487-a34vjrp7pj00uch9le0j68ru6cdhg21n.apps.googleusercontent.com"
-        data-login_uri="http://localhost:8080/"
+        data-callback="handleCredentialResponse"
         data-auto_prompt="false"
       ></div>
       <div
