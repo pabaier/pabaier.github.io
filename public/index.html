@@ -17,9 +17,8 @@
     <!-- built files will be auto injected -->
   </body>
   <script>
-  function handleCredentialResponse (response) {
-    console.log(response)
-    window.location.href = "http://localhost:8080/about";
-  }
+    function handleCredentialResponse (response) {
+      window.location.href = '/about?token=' + response.credential;
+    }
   </script>
 </html>
